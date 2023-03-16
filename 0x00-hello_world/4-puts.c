@@ -1,2 +1,9 @@
-#!/bin/bash
-puts("Programming is like building a multilingual puzzle"/n); returns(0);
+#include <stdio.h>
+/** 
+ * main - A program that that print the puts"
+ * return: 0 (Success)
+ * /
+int main(void)
+{puts ("/"Programming is like building a multilingual buzzle");
+return(0);
+}
