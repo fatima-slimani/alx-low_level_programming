@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - A program that print an sentence
+/**
+ * main - A program that print an sentence
  *
  * return: 0 Always (success)
  */
