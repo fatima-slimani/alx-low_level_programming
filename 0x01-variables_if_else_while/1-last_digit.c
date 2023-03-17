@@ -15,8 +15,7 @@ int main(void)
 	printf("Last digit of d%, is greater than 5\n");
 	if (n==0)
 	printf("Last digit of d%, is 0\n");
-	if (n<6 && n<0)
-	printf("Last digit of d%, is less than 6 and not\n");
-	return (0);	
-
-		
+	if (n<6 && n!=0)
+	printf("Last digit of d%, is less than 6 and is not 0");
+	return (0);
+}	
