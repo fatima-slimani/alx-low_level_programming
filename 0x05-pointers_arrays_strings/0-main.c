@@ -1,19 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 
-void reset_to_98(int *);
-
 /**
- * main - check the code for Holberton School students.
+ * main - check the code 
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int n;
+    int n;
 
-	n = 402;
-	printf("%d\n", n);
-	reset_to_98(&n);
-	printf("%d\n", n);
-	return (0);
+    n = 402;
+    printf("n=%d\n", n);
+    reset_to_98(&n);
+    printf("n=%d\n", n);
+    return (0);
 }
