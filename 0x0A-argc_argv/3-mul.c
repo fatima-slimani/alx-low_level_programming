@@ -12,9 +12,10 @@ int main(int argc, char *argv[])
 {
 	int num1, num2, result;
 
-	if (argc != 3) {
+	if (argc != 3)
+	{
 		printf("Error\n");
-		return 1;
+		return (1);
 	}
 
 	/* Convert the input arguments to integers */
@@ -27,6 +28,6 @@ int main(int argc, char *argv[])
 	/* Print the result followed by a newline */
 	printf("%d\n", result);
 
-	return 0;
+	return (0);
 }
 
